@@ -1,0 +1,33 @@
+spring:
+  ai:
+    ollama:
+      base-url: http://192.168.250.250:11434
+      chat:
+        options:
+          model: phi4
+          stream: true
+  r2dbc:
+    url: r2dbc:mariadb://localhost:3306/minichatbot
+    username: root
+    password: 1111
+    properties:
+      characterEncoding: utf-8
+      connectionCollation: utf8_general_ci
+  redis:
+    host: 172.25.54.32
+    port: 6379
+  server:
+    port: 8080
+    servlet:
+      encoding:
+        charset: UTF-8
+        force: true
+
+ollama:
+  api:
+    url: http://192.168.250.250:11434
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    reactor.netty: DEBUG
