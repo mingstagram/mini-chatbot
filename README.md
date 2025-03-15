@@ -35,9 +35,7 @@
 
 ### ✅ 2. WebFlux 기반 비동기 API
 - **Spring WebFlux** 기반 비동기 데이터 처리
-- **비동기 Ollama API 호출 및 스트리밍 데이터 전송**
-
--- 진행중
+- **비동기 Ollama API 호출 및 스트리밍 데이터 전송** 
 
 ### ✅ 3. React 기반 UI 및 마크다운 지원
 - **ReactMarkdown을 활용한 AI 응답 렌더링**
