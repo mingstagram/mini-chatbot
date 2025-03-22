@@ -5,6 +5,8 @@
 이 프로젝트는 **Spring WebFlux + Ollama + Redis**를 활용한 **비동기 AI 챗봇** 애플리케이션입니다.  
 **WebFlux 비동기 처리**를 기반으로 한 **AI 모델 응답 스트리밍**을 구현하고, **Redis**를 활용하여 **세션 데이터**를 최적화하며, **React 기반 프론트엔드**를 통해 사용자 친화적인 인터페이스를 제공합니다.
 
+---
+
 ### ✅ 주요 목표:
 - **비동기 아키텍처**를 활용한 **실시간 AI 챗봇** 구현
 - **Ollama API**를 활용한 **AI 모델 연동 및 스트리밍 응답**
@@ -45,3 +47,16 @@
 ### ✅ 4. Redis 기반 세션 관리 및 캐싱
 - **사용자별 AI 대화 기록 저장**
 - **빠른 응답을 위한 Redis 캐싱 활용**
+
+---
+
+## 프로젝트 문서 
+- 📄 [트러블슈팅 문서](docs/troubleshooting.md)
+- 📄 [아키텍처 문서](docs/architecture.md)
+
+---
+
+## 📌 Contact
+#### ✉️ Email: amgkim21@gmail.com
+#### 📌 GitHub: [github.com/mingstagram](https://github.com/mingstagram)
+#### 📌 Tech Blog: [mingucci.tistory.com](https://mingucci.tistory.com)
